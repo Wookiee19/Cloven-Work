@@ -19,9 +19,9 @@ import { Carousel } from 'react-responsive-carousel';
 import styled from "styled-components";
 import neuraltone11 from "../asset/neuraltone11.gif";
 import neuraltone2 from "../asset/neuraltone2.gif";
-import nearby1 from "../asset/nearby1.PNG";
-import nearby2 from "../asset/nearby2.PNG";
-import nearby3 from "../asset/nearby3.PNG"
+import nearby1 from "../asset/nearby1.jpg";
+import nearby2 from "../asset/nearby2.jpg";
+import nearby3 from "../asset/nearby3.jpg"
 import admin from "../asset/erp-admin.png";
 import student from "../asset/erp-student.png";
 import teacher from "../asset/erp-teacher.png";

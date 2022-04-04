@@ -9,7 +9,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 
 import styled from "styled-components";
 
-import icon from '../asset/icon.PNG';
+import icon from '../asset/icon.jpg';
 import Body from '../Components/body';
 
 
