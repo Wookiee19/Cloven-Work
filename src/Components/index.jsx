@@ -133,33 +133,14 @@ const Index = () =>{
               <ul>
                 <li>
                   <h2 className="level-5 aqua">Email</h2>
-                  <a href="mailto:hello@unifyconsulting.com" className="level-4">hello@unifyconsulting.com</a>
+                  
                 </li>
-                <li>
-                  <h2 className="level-5 aqua">Phone</h2>
-                  <a href="tel:206.395.2600" className="level-4">206.395.2600</a>
-                </li>
+               
               </ul>
             </nav>
             <nav id="nav-social" className="nav-social" role="navigation">
               <h2 className="level-5 aqua">Social</h2>
-              <ul>
-                <li className=" menu-item menu-item-type-custom menu-item-object-custom menu-item-46">
-                  <a target="_blank" href="https://www.facebook.com/UnifyConsulting/" className="level-4">
-                    Facebook
-                  </a>
-                </li>
-                <li className=" menu-item menu-item-type-custom menu-item-object-custom menu-item-48">
-                  <a target="_blank" href="https://www.linkedin.com/company/unifyconsulting/" className="level-4">
-                    LinkedIn
-                  </a>
-                </li>
-                <li className=" menu-item menu-item-type-custom menu-item-object-custom menu-item-49">
-                  <a target="_blank" href="https://www.instagram.com/unifyconsulting/" className="level-4">
-                    Instagram
-                  </a>
-                </li>
-              </ul>
+             
             </nav>
           </div>
         </div>
@@ -168,12 +149,16 @@ const Index = () =>{
     <section id="content" role="main" className="content-wrapper">
  
       <section className="video background hero " >
-    
+      <div class="responsive-video">
+    <iframe class="video" 
+       src="https://player.vimeo.com/video/250868860?background=1" frameborder="0">
+    </iframe>
+</div>
       
-        <div className="fitvid" >
-        <iframe src="https://player.vimeo.com/video/250868860?background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      {/* <div class="resp-container">
+        <iframe  src="https://player.vimeo.com/video/250868860?background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         
-        </div>
+        </div> */}
         <div className="overlay">
           <h2 style={{textAlign: 'center'}}><span className="level-1">Building for You, That's What We Do!</span></h2>
         </div>

@@ -119,7 +119,7 @@ const Body = () => {
       </section>
       <section className="copy-block  no-top-padding">
         <div className="container sixty-five-percent-width">
-          <h2 style={{textAlign: 'center'}}><span className="level-3 hanging-header">Building for You, That's What We Do!</span></h2>
+          {/* <h2 style={{textAlign: 'center'}}><span className="level-3 hanging-header">Building for You, That's What We Do!</span></h2> */}
           <p>&nbsp;</p>
           <p className="large" style={{textAlign: 'center'}}><span style={{color: '#69747c'}}>You want to develop the tools you need for your projects. But unfortunately, you
 lack the internal resources to get the job done. You've tried other technology firms,
@@ -141,21 +141,21 @@ Building for You, That's What We Do!</span></p>
       </section>
       <section className="repeatable-boxes  ">
         <div className="container flex">
-          <a href="https://unifyconsulting.mystagingwebsite.com/work/business-agility/" className="box" target>
+          <a  className="box" target>
             <img src={smartphone} />
             <div>
               <h2 className="level-4">Mobile App Development</h2>
               <p>We empower efficient, resilient, and highly-responsive organizations.</p>
             </div>
           </a>
-          <a href="https://unifyconsulting.mystagingwebsite.com/work/data-driven-insights/" className="box" target>
+          <a className="box" target>
             <img src={computer} alt="circle icon with bar chart. Link to Data-Driven Insights page" />
             <div>
               <h2 className="level-4">Website Development</h2>
               <p>We produce intelligence that is meaningful and actionable.</p>
             </div>
           </a>
-          <a href="work/technology-enablement/index.html" className="box" target>
+          <a  className="box" target>
             <img src={erp} alt="circle icon with microchip. Link to Technology Enablement page" />
             <div>
               <h2 className="level-4">ERP Development</h2>
@@ -166,21 +166,21 @@ Building for You, That's What We Do!</span></p>
       </section>
       <section className="repeatable-boxes  ">
         <div className="container flex">
-          <a href="https://unifyconsulting.mystagingwebsite.com/work/business-agility/" className="box" target>
+          <a  className="box" target>
             <img src={shopping} />
             <div>
               <h2 className="level-4">E-Commerce Development</h2>
               <p>We empower efficient, resilient, and highly-responsive organizations.</p>
             </div>
           </a>
-          <a href="https://unifyconsulting.mystagingwebsite.com/work/data-driven-insights/" className="box" target>
+          <a  className="box" target>
             <img src={research} alt="circle icon with bar chart. Link to Data-Driven Insights page" />
             <div>
               <h2 className="level-4">Research Planning </h2>
               <p>We produce intelligence that is meaningful and actionable.</p>
             </div>
           </a>
-          <a href="work/technology-enablement/index.html" className="box" target>
+          <a  className="box" target>
             <img src={ui} alt="circle icon with microchip. Link to Technology Enablement page" />
             <div>
               <h2 className="level-4">UI/UX Design</h2>
@@ -460,7 +460,7 @@ organizations.
           <img src={Twitter} alt="Gmail" /></a></li>
         </ul>
 
-      <a href="mailto:hello@unifyconsulting.com" class="email">project.cworks@gmail.com</a>
+     
       
       <small class="level-5">&copy; © 2022 Cloven&Work All rights reserved.</small>
     </div>
