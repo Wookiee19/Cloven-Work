@@ -9,7 +9,7 @@ import erp from '../asset/erp-solutions.gif';
 import shopping from '../asset/shopping-cart.gif';
 import Carnegie from '../asset/Carnegie.jpg';
 import google from '../asset/google.gif';
-import pi from '../asset/pi.jpg';
+
 import GKTW from '../asset/GKTW.jpg';
 import microsoft from '../asset/microsoft.gif';
 import research from '../asset/research.gif';
@@ -19,12 +19,12 @@ import { Carousel } from 'react-responsive-carousel';
 import styled from "styled-components";
 import neuraltone11 from "../asset/neuraltone11.gif";
 import neuraltone2 from "../asset/neuraltone2.gif";
-import nearby1 from "../asset/nearby1.jpg";
-import nearby2 from "../asset/nearby.jpg";
-import nearby3 from "../asset/nearby3.jpg";
-import admin from "../asset/erp-admin.jpg";
-import student from "../asset/erp-student.jpg";
-import teacher from "../asset/erp-teacher.jpg";
+import nearby1 from "../asset/nearby1.PNG";
+import nearby2 from "../asset/nearby2.PNG";
+import nearby3 from "../asset/nearby3.PNG"
+import admin from "../asset/erp-admin.png";
+import student from "../asset/erp-student.png";
+import teacher from "../asset/erp-teacher.png";
 
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -34,7 +34,9 @@ import icon from '../asset/icon.PNG';
 import { height } from '@mui/system';
 import Twitter from "../asset/twitter-square-brands.svg";
 import Instagram from "../asset/instagram-square-brands.svg";
+import IconButton from '@mui/material/IconButton';
 
+import CloseIcon from '@mui/icons-material/Close';
 import Facebook from "../asset/instagram-square-brands.svg";
 
 const Rb = styled.div`
@@ -156,21 +158,22 @@ Building for You, That's What We Do!</span></p>
             </div>
           </a>
           <a  className="box" target>
-            <img src={erp} alt="circle icon with microchip. Link to Technology Enablement page" />
-            <div>
-              <h2 className="level-4">ERP Development</h2>
-              <p>Modernize digital platforms and unlock potential by providing strategic solutions to address disruptive technology challenges.</p>
-            </div>
-          </a>
-        </div>
-      </section>
-      <section className="repeatable-boxes  ">
-        <div className="container flex">
-          <a  className="box" target>
             <img src={shopping} />
             <div>
               <h2 className="level-4">E-Commerce Development</h2>
               <p>We empower efficient, resilient, and highly-responsive organizations.</p>
+            </div>
+          </a>
+          
+        </div>
+      </section>
+      <section className="repeatable-boxes  ">
+        <div className="container flex">
+        <a  className="box" target>
+            <img src={erp} alt="circle icon with microchip. Link to Technology Enablement page" />
+            <div>
+              <h2 className="level-4">ERP Development</h2>
+              <p>Modernize digital platforms and unlock potential by providing strategic solutions to address disruptive technology challenges.</p>
             </div>
           </a>
           <a  className="box" target>
@@ -205,18 +208,16 @@ Building for You, That's What We Do!</span></p>
         <section className="repeatable-boxes  ">
         <div className="container flex">
           
-          <a  className="box1" target>
+          <a href='https://about.google/' className="box1" target="_blank">
             <img src={google} alt="circle icon with bar chart. Link to Data-Driven Insights page" width="380" height="190" />
             
           </a>
-          <a className="box1" target>
+          <a href='https://www.cmu.edu/' className="box1" target="_blank">
             <img src={Carnegie} alt="circle icon with microchip. Link to Technology Enablement page" width="380" height="190"/>
             
           </a>
-          <a  className="box1" target>
-            <img src={pi} alt="circle icon with bar chart. Link to Data-Driven Insights page"  style={{marginTop:"48px"}}width="380" height="190" />
-            </a>
-          <a  className="box1" target>
+          
+          <a href='https://www.gktw.org/' className="box1" target="_blank">
             <img src={GKTW} alt="circle icon with bar chart. Link to Data-Driven Insights page" style={{marginTop:"32px"}} width="380" height="190" />
             </a>
         </div>
@@ -272,6 +273,15 @@ University's Center for Neurological Cognition and Behaviour</p>
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h4" component="h2">
           Neuraltone
+          <IconButton
+              edge="start"
+              color="inherit"
+              onClick={handleClose}
+              aria-label="close"
+              style={{marginLeft:"80px", marginBottom:"5px"}}
+            >
+              <CloseIcon />
+            </IconButton>
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
           'Neuraltone' is a research tool developed with the support of Carnegie Mellon
@@ -313,7 +323,7 @@ settings.
                 </div>
             </Carousel>
               <p className="level-5">
-                <span>School Portal </span>
+                <span>School Portal </span> 
                 ERP
               </p>
               <p className="large">It is a web-based portal
@@ -323,6 +333,7 @@ apply for leave, ETc.</p>
             <a onClick={handleClickOpen1} className="button">See More</a>
           </div>
           <Modal
+          
         open={open1}
         onClose={handleClose1}
         aria-labelledby="modal-modal-title"
@@ -331,7 +342,17 @@ apply for leave, ETc.</p>
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h4" component="h2">
           School Portal
+          <IconButton
+              edge="start"
+              color="inherit"
+              onClick={handleClose1}
+              aria-label="close"
+              style={{marginLeft:"80px", marginBottom:"5px"}}
+            >
+              <CloseIcon />
+            </IconButton>
           </Typography>
+          
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
           Several schools are currently using the 'School Portal'. It is a web-based portal
 system that students can use to look at their courses, notifications, exam schedules,
@@ -393,6 +414,15 @@ sellers closest to them .</p>
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h4" component="h2">
           Nearbuy Food Ordering App
+          <IconButton
+              edge="start"
+              color="inherit"
+              onClick={handleClose2}
+              aria-label="close"
+              style={{marginLeft:"80px", marginBottom:"5px"}}
+            >
+              <CloseIcon />
+            </IconButton>
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
           'Nearbuy Food Ordering App' allows customers to discover, buy, and save with
@@ -453,41 +483,15 @@ organizations.
     <footer>
     <div>
       <ul class="social-icons">
-        <li><a href="https://www.facebook.com/profile.php?id=100077678884545" class="icon-facebook" target="_blank"><img src={Facebook} alt="Instagram" /></a></li>
-        <li><a href="https://www.facebook.com/profile.php?id=100077678884545" class="icon-linkedin" target="_blank"><img src={Facebook} alt="Instagram" /></a></li>
-        <li><a href="https://www.facebook.com/profile.php?id=100077678884545" class="icon-instagram" target="_blank"><img src={Facebook} alt="Instagram" /></a></li>
-        <li> <a href="mailto:project.cworks@gmail.com?subject=Email From Your Website" target="_blank">
-          <img src={Twitter} alt="Gmail" /></a></li>
-        </ul>
+        
+        <a href="https://mobile.twitter.com/ClovenWorks"  target="_blank"><img src={Twitter} alt="HTML tutorial" style={{width:"42px",height:"42px"}}/></a>               
+                                      </ul>
 
-     
-      
-      <small class="level-5">&copy; © 2022 Cloven&Work All rights reserved.</small>
+      <a href="mailto:hello@unifyconsulting.com" class="email">hello@unifyconsulting.com</a>
+      <a href="mailto:hello@unifyconsulting.com" class="email" style={{marginLeft:"20px"}}>contact@cloven.works</a>
+      <small class="level-5">&copy; 2022 Cloven&Work</small>
     </div>
   </footer>
-    {/* <footer>
-      <div>
-        
-      <RightText>
-        <ul className="social-icons">
-        <a href="https://www.facebook.com/profile.php?id=100077678884545" target="_blank">
-          <img src={Twitter} alt="Twitter" />
-        </a>
-        &nbsp;
-        <a href="https://www.facebook.com/profile.php?id=100077678884545" target="_blank">
-          <img src={Facebook} alt="Instagram" />
-        </a>
-        &nbsp;
-        <a href="mailto:project.cworks@gmail.com?subject=Email From Your Website" target="_blank">
-          <img src={Instagram} alt="Gmail" />
-        </a>
-              </ul>
-              </RightText>
-        <a href="mailto:project.cworks@gmail.com?subject=Email From Your Website" className="email">project.cworks@gmail.com</a>
-    
-        <small className="level-5">© 2022 Cloven&Work All rights reserved.</small>
-      </div>
-    </footer> */}
     </div>
   )
 }

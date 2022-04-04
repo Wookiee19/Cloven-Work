@@ -3,32 +3,12 @@ import { useEffect,useState, useRef } from 'react';
 import './style.css';
 import Contact from '../Components/Contact'
 import './main.css'
-import smartphone from '../asset/smartphone.gif';
-import computer from '../asset/computer.gif';
-import erp from '../asset/erp-solutions.gif';
-import shopping from '../asset/shopping-cart.gif';
-import master from '../asset/master.gif';
-import google from '../asset/google.gif';
-import visa from '../asset/visa.gif';
-import microsoft from '../asset/microsoft.gif';
-import research from '../asset/research.gif';
-import ui from '../asset/ui.gif';
+import office from '../asset/office.jpg';
+
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+
 import styled from "styled-components";
-import neuraltone11 from "../asset/neuraltone11.gif";
-import neuraltone2 from "../asset/neuraltone2.gif";
-import nearby1 from "../asset/nearby1.jpg";
-import nearby2 from "../asset/nearby.jpg";
-import nearby3 from "../asset/nearby3.jpg";
-import admin from "../asset/erp-admin.jpg";
-import student from "../asset/erp-student.jpg";
-import teacher from "../asset/erp-teacher.jpg";
-import Twitter from "../asset/facebook-square-brands.svg";
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import Modal from '@mui/material/Modal';
+
 import icon from '../asset/icon.PNG';
 import Body from '../Components/body';
 
@@ -97,6 +77,7 @@ const Index = () =>{
       <a className="logo"  href="index.html" rel="home">
         <img src={icon}/>
       </a>
+      
         <p className="page-title">Transforming Your Presence</p>
         {/* <button id="primary-trigger" className="hamburger hamburger--spin" type="button">
           <span className="hamburger-box">
@@ -149,16 +130,12 @@ const Index = () =>{
     <section id="content" role="main" className="content-wrapper">
  
       <section className="video background hero " >
-      <div class="responsive-video">
-    <iframe class="video" 
-       src="https://player.vimeo.com/video/250868860?background=1" frameborder="0">
-    </iframe>
-</div>
+     
+    
+    <img src={office} style={{width:'100%'}}></img>
+
       
-      {/* <div class="resp-container">
-        <iframe  src="https://player.vimeo.com/video/250868860?background=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-        
-        </div> */}
+      
         <div className="overlay">
           <h2 style={{textAlign: 'center'}}><span className="level-1">Building for You, That's What We Do!</span></h2>
         </div>
