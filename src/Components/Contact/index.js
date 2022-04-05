@@ -123,18 +123,14 @@ const Form = styled.form`
     }
   }
   textarea {
+    border:2px solid black;
     padding: 1rem calc(0.5rem + 1vw);
     margin-bottom: 1rem;
-    resize: none;
-   
-    
+  
     border-radius: 4px;
     
     margin-bottom: 2rem;
-    &:focus,
-    &:active {
-     
-    }
+   
     &::placeholder {
       
       opacity: 0.6;
