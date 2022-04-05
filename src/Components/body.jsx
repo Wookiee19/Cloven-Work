@@ -25,7 +25,7 @@ import nearby3 from "../asset/nearby3.jpg"
 import admin from "../asset/erp-admin.png";
 import student from "../asset/erp-student.png";
 import teacher from "../asset/erp-teacher.png";
-
+import CloseIcon from '@mui/icons-material/Close';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
@@ -36,7 +36,7 @@ import Twitter from "../asset/twitter-square-brands.svg";
 import Instagram from "../asset/instagram-square-brands.svg";
 import IconButton from '@mui/material/IconButton';
 
-import CloseIcon from '@mui/icons-material/Close';
+
 import Facebook from "../asset/instagram-square-brands.svg";
 
 const Rb = styled.div`
@@ -247,10 +247,10 @@ Building for You, That's What We Do!</span></p>
            
             >
                 <div>
-                <img src={neuraltone11} alt="Cone Object" style={{width: 600, height: 250}} />
+                <img src={neuraltone11} alt="Cone Object" style={{width: 700, height: 300}} />
                 </div>
                 <div>
-                <img src={neuraltone2} alt="Cone Object" style={{width: 600, height: 250}} />
+                <img src={neuraltone2} alt="Cone Object" style={{width: 700, height: 300}} />
                 </div>
                
                 
@@ -265,6 +265,8 @@ University's Center for Neurological Cognition and Behaviour</p>
             <a  onClick={handleClickOpen} className="button">See More</a>
           </div>
           <Modal
+          fullWidth={true}
+          maxWidth={'xl'}
         open={open}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
@@ -278,7 +280,8 @@ University's Center for Neurological Cognition and Behaviour</p>
               color="inherit"
               onClick={handleClose}
               aria-label="close"
-              style={{marginLeft:"80px", marginBottom:"5px"}}
+              style={{marginLeft:"100px", marginBottom:"5px"}}
+              
             >
               <CloseIcon />
             </IconButton>
@@ -295,7 +298,7 @@ the game parameters and the game stimuli independently for a particular use case
 In addition, different experimenters can run their experiments using their own
 settings.
           </Typography>
-          <Button onClick={handleClose}>Close</Button>
+          <Button variant="contained" onClick={handleClose}>Close</Button>
         </Box>
       </Modal>
             </div>
@@ -313,13 +316,13 @@ settings.
             
             >
                 <div>
-                <img src={admin} alt="admin" style={{width: 600, height: 250}}/>
+                <img src={admin} alt="admin" style={{width: 700, height: 300}}/>
                 </div>
                 <div>
-                <img src={teacher} alt="teacher" style={{width: 600, height: 250}} />
+                <img src={teacher} alt="teacher" style={{width: 700, height: 300}} />
                 </div>
                 <div>
-                <img src={student} alt="student" style={{width: 600, height: 250}} />
+                <img src={student} alt="student" style={{width: 700, height: 300}} />
                 </div>
             </Carousel>
               <p className="level-5">
@@ -333,7 +336,8 @@ apply for leave, ETc.</p>
             <a onClick={handleClickOpen1} className="button">See More</a>
           </div>
           <Modal
-          
+          fullWidth='true'
+          maxWidth='xl'
         open={open1}
         onClose={handleClose1}
         aria-labelledby="modal-modal-title"
@@ -366,7 +370,7 @@ Administrators can add new teachers, promote existing ones, provide transfer
 certificates to outgoing students, and view students' records. The school system has
 become much more efficient since implementing this program.
           </Typography>
-          <Button onClick={handleClose1}>Close</Button>
+          <Button variant="contained" onClick={handleClose1}>Close</Button>
         </Box>
       </Modal>
             </div>
@@ -385,13 +389,13 @@ become much more efficient since implementing this program.
            
             >
                 <div>
-                <img src={nearby1} alt="Cone Object" style={{width: 600, height: 250}} />
+                <img src={nearby1} alt="Cone Object" style={{width: 700, height: 300}} />
                 </div>
                 <div>
-                <img src={nearby3} alt="Cone Object" style={{width: 600, height: 250}} />
+                <img src={nearby3} alt="Cone Object" style={{width: 700, height: 300}} />
                 </div>
                 <div>
-                <img src={nearby2} alt="Cone Object" style={{width: 600, height: 250}} />
+                <img src={nearby2} alt="Cone Object" style={{width: 700, height: 300}} />
                 </div>
                
                 
@@ -405,21 +409,24 @@ sellers closest to them .</p>
               <div>
             <a onClick={handleClickOpen2} className="button">See More</a>
           </div>
+          
           <Modal
         open={open2}
         onClose={handleClose2}
         aria-labelledby="modal-modal-title"
+        fullWidth='true'
+        maxWidth='xl'
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h4" component="h2">
-          Nearbuy Food Ordering App
+          Nearbuy 
           <IconButton
               edge="start"
               color="inherit"
               onClick={handleClose2}
               aria-label="close"
-              style={{marginLeft:"80px", marginBottom:"5px"}}
+              style={{marginLeft:"160px", marginBottom:"15px"}}
             >
               <CloseIcon />
             </IconButton>
@@ -433,7 +440,7 @@ places, like Uber Eats/ Zomato/ Yelp. Our primary aim was to create an ability t
 process large amounts of data in real-time. Apache Storm, for example, is a real-time
 streaming tool that processes data streams in real-time.
           </Typography>
-          <Button onClick={handleClose2}>Close</Button>
+          <Button variant="contained" onClick={handleClose2}>Close</Button>
         </Box>
       </Modal>
             </div>
@@ -487,7 +494,7 @@ organizations.
         <a href="https://mobile.twitter.com/ClovenWorks"  target="_blank"><img src={Twitter} alt="HTML tutorial" style={{width:"42px",height:"42px"}}/></a>               
                                       </ul>
 
-      <a href="mailto:hello@unifyconsulting.com" class="email">hello@unifyconsulting.com</a>
+      <a href="mailto:hello@unifyconsulting.com" class="email">project.cworks@gmail.com</a>
       <a href="mailto:hello@unifyconsulting.com" class="email" style={{marginLeft:"20px"}}>contact@cloven.works</a>
       <small class="level-5">&copy; 2022 Cloven&Work</small>
     </div>
