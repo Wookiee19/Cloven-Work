@@ -105,7 +105,7 @@ const Form = styled.form`
     padding: 1rem calc(0.5rem + 1vw);
     margin-bottom: 1rem;
     
-    border: none;
+    
     border-radius: 4px;
     
     &:active,
@@ -127,7 +127,7 @@ const Form = styled.form`
     margin-bottom: 1rem;
     resize: none;
    
-    border: none;
+    
     border-radius: 4px;
     
     margin-bottom: 2rem;
@@ -163,6 +163,7 @@ const Row = styled.div`
     flex-direction: column;
     input {
       &[name="name"] {
+
         margin-right: 0;
       }
     }
