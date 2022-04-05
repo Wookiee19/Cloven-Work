@@ -65,6 +65,40 @@ dt {
 dd {
   margin-left: 0;
 }
+@media screen and (max-width: 800px) {
+  .page-title2{
+    color: #143250;
+    display: inline-block;
+    font-family: "PT Serif", serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    padding-top: 0em;
+    
+    
+    text-align: center;
+
+  }
+  .page-title1{
+  display:none;    
+  }
+}
+@media screen and (min-width: 800px) {
+  .page-title1{
+    color: #143250;
+    display: inline-block;
+    font-family: "PT Serif", serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    padding-top: 0em;
+    
+    
+    text-align: center;
+
+  }
+  .page-title2{
+  display:none;    
+  }
+}
 @media screen and (min-width: 50em) {
   .article-body ul {
     font-size: 1.6em;
@@ -327,6 +361,7 @@ p .text-button {
     display: inline-block;
   }
 }
+
 @media screen and (min-width: 50em) {
   #insights-landing .alm-btn-wrap figure figcaption .alm-load-more-btn,
   #insights-landing .alm-btn-wrap p .alm-load-more-btn,
@@ -1171,6 +1206,9 @@ header #primary > div .secondary h2 {
   header .top-bar .hamburger {
     margin-top: 1em;
   }
+  .logo1{
+    color: #143250;
+  }
   .page-title1 {
     color: #143250;
     display: inline-block;
@@ -1178,6 +1216,8 @@ header #primary > div .secondary h2 {
     font-size: 3.5em;
     font-weight: bold;
     padding-top: 0em;
+    
+    
     text-align: center;
   }
   header .top-bar .page-title {

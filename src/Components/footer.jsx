@@ -14,10 +14,10 @@ const FooterPage = () => {
 			<div class="footer-left">
             <p class="footer-company-about">
 					<span>About the company</span>
-					We at Cloven&Works are an education and research <br/>consultancy that offers
-customized solutions tailored <br/>
+					We at Cloven&Works are an education and research consultancy that offers
+customized solutions tailored 
 to the needs of educational
- institutions and research<br/>
+ institutions and research
 organizations.
 				</p>
 

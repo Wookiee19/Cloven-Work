@@ -134,6 +134,8 @@
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;
+	width:100%;
+	max-width: 260px;
 }
 
 .footer-distributed .footer-company-about span{
@@ -142,6 +144,7 @@
 	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 20px;
+	
 }
 
 .footer-distributed .footer-icons{
