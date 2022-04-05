@@ -44,9 +44,6 @@ section {
 }
 ol,
 ul {
-
-    list-style-type: none;
-
   font-family: Circular-Book, Arial, Sans-Serif;
   font-size: 1.4em;
 }
@@ -79,11 +76,15 @@ a {
   -webkit-transition: color 250ms ease-out;
   transition: color 250ms ease-out;
 }
+.logo1 {
+  max-width: 100%;
+  height: 110%;
+}
 img,
 object,
 video {
   max-width: 100%;
-  height: 100%;
+  height: auto;
 }
 img.aligncenter,
 object.aligncenter,
