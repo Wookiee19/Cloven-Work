@@ -1,6 +1,7 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import Gmail from "../asset/envelope.svg";
+import email from "../asset/email.png";
 import './footer1.css'
 import icon1 from '../asset/logo1.png';
 import linkedin from "../asset/linkedin.png";
@@ -16,7 +17,7 @@ const FooterPage = () => {
 					We at Cloven&Works are an education and research <br/>consultancy that offers
 customized solutions tailored <br/>
 to the needs of educational
-<br/> institutions and research
+ institutions and research<br/>
 organizations.
 				</p>
 
@@ -34,12 +35,12 @@ organizations.
 				
 
 				<div>
-					<i class="fa fa-envelope"><img src={Gmail} alt="HTML tutorial" style={{width:"42px",height:"42px"}}/></i>
+					<i class="fa fa-envelope"><img src={email} alt="HTML tutorial" style={{width:"42px",height:"42px"}}/></i>
 					<p><a href="mailto:mailto:contact@cloven.works">contact@cloven.works</a></p>
 				</div>
 
 				<div>
-					<i class="fa fa-envelope"><img src={Gmail} alt="HTML tutorial" style={{width:"42px",height:"42px"}}/></i>
+					<i class="fa fa-envelope"><img src={email} alt="HTML tutorial" style={{width:"42px",height:"42px"}}/></i>
 					<p><a href="mailto:project.cworks@gmail.com">project.cworks@gmail.com</a></p>
 				</div>
 

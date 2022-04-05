@@ -106,7 +106,7 @@ const Form = styled.form`
     margin-bottom: 1rem;
     
     
-    border-radius: 4px;
+    // border-radius: 4px;
     
     &:active,
     &:focus {
@@ -123,7 +123,7 @@ const Form = styled.form`
     }
   }
   textarea {
-    border:2px solid black;
+    // border:2px solid black;
     padding: 1rem calc(0.5rem + 1vw);
     margin-bottom: 1rem;
   

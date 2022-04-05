@@ -302,7 +302,14 @@ the game parameters and the game stimuli independently for a particular use case
 In addition, different experimenters can run their experiments using their own
 settings.
           </Typography>
-          <Button variant="contained" onClick={handleClose}>Close</Button>
+          <div style={{marginTop:"15px"}}>
+          <Button style={{
+          maxWidth: "50px",
+          maxHeight: "50px",
+          minWidth: "30px",
+          minHeight: "30px"
+        }} variant="contained" onClick={handleClose}>Close</Button>
+          </div>
         </Box>
       </Modal>
             </div>
@@ -335,7 +342,7 @@ settings.
               </p>
               <p className="large">It is a web-based portal
 system that students can use to look at their courses, notifications, exam schedules,
-apply for leave, ETc.</p>
+apply for leave, etc.</p>
               <div>
             <a onClick={handleClickOpen1} className="button">See More</a>
           </div>
@@ -377,7 +384,14 @@ Administrators can add new teachers, promote existing ones, provide transfer
 certificates to outgoing students, and view students' records. The school system has
 become much more efficient since implementing this program.
           </Typography>
-          <Button variant="contained" onClick={handleClose1}>Close</Button>
+          <div style={{marginTop:"15px"}}>
+          <Button style={{
+          maxWidth: "50px",
+          maxHeight: "50px",
+          minWidth: "30px",
+          minHeight: "30px"
+        }} variant="contained" onClick={handleClose1}>Close</Button>
+          </div>
         </Box>
       </Modal>
             </div>
@@ -450,7 +464,14 @@ places, like Uber Eats/ Zomato/ Yelp. Our primary aim was to create an ability t
 process large amounts of data in real-time. Apache Storm, for example, is a real-time
 streaming tool that processes data streams in real-time.
           </Typography>
-          <Button variant="contained" onClick={handleClose2}>Close</Button>
+          <div style={{marginTop:"15px"}}>
+          <Button style={{
+          maxWidth: "50px",
+          maxHeight: "50px",
+          minWidth: "30px",
+          minHeight: "30px"
+        }} variant="contained" onClick={handleClose2}>Close</Button>
+          </div>
         </Box>
       </Modal>
             </div>

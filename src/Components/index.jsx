@@ -77,7 +77,8 @@ const Index = () =>{
       
       <div className="top-bar container">
       <a className="logo"   rel="home">
-        <img className="logo1" src={icon3} max-width="100%" height="110%"/>
+        {/* <img className="logo1" src={icon3} max-width="100%" height="110%"/> */}
+        <p className="page-title1">Cloven&Works</p>
         
       </a>
       <p className="page-title">Transforming Your Presence</p>
