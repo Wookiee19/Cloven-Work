@@ -9,7 +9,7 @@ import erp from '../asset/erp-solutions.gif';
 import shopping from '../asset/shopping-cart.gif';
 import Carnegie from '../asset/Carnegie.jpg';
 import google from '../asset/google.gif';
-
+import FooterPage from "./footer";
 import GKTW from '../asset/GKTW.jpg';
 import microsoft from '../asset/microsoft.gif';
 import research from '../asset/research.gif';
@@ -35,9 +35,11 @@ import { height } from '@mui/system';
 import Twitter from "../asset/twitter-square-brands.svg";
 import Instagram from "../asset/instagram-square-brands.svg";
 import IconButton from '@mui/material/IconButton';
+import Gmail from "../asset/gmail.ico";
 
-
+import linkedin from "../asset/linkedin.png";
 import Facebook from "../asset/instagram-square-brands.svg";
+
 
 const Rb = styled.div`
   display: flex;
@@ -276,14 +278,16 @@ University's Center for Neurological Cognition and Behaviour</p>
           <Typography id="modal-modal-title" variant="h4" component="h2">
           Neuraltone
           <IconButton
-              edge="start"
-              color="inherit"
-              onClick={handleClose}
-              aria-label="close"
-              style={{marginLeft:"100px", marginBottom:"5px"}}
-              
+                aria-label="close"
+                onClick={handleClose}
+                sx={{
+                    position: 'absolute',
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                }}
             >
-              <CloseIcon />
+                <CloseIcon/>
             </IconButton>
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
@@ -347,13 +351,16 @@ apply for leave, ETc.</p>
           <Typography id="modal-modal-title" variant="h4" component="h2">
           School Portal
           <IconButton
-              edge="start"
-              color="inherit"
-              onClick={handleClose1}
-              aria-label="close"
-              style={{marginLeft:"80px", marginBottom:"5px"}}
+                aria-label="close"
+                onClick={handleClose1}
+                sx={{
+                    position: 'absolute',
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                }}
             >
-              <CloseIcon />
+                <CloseIcon/>
             </IconButton>
           </Typography>
           
@@ -422,13 +429,16 @@ sellers closest to them .</p>
           <Typography id="modal-modal-title" variant="h4" component="h2">
           Nearbuy 
           <IconButton
-              edge="start"
-              color="inherit"
-              onClick={handleClose2}
-              aria-label="close"
-              style={{marginLeft:"160px", marginBottom:"15px"}}
+                aria-label="close"
+                onClick={handleClose2}
+                sx={{
+                    position: 'absolute',
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                }}
             >
-              <CloseIcon />
+                <CloseIcon/>
             </IconButton>
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
@@ -487,18 +497,23 @@ organizations.
       </section> */}
     
     <Contact/>
-    <footer>
+    <FooterPage/>
+    {/* <footer>
     <div>
       <ul class="social-icons">
         
-        <a href="https://mobile.twitter.com/ClovenWorks"  target="_blank"><img src={Twitter} alt="HTML tutorial" style={{width:"42px",height:"42px"}}/></a>               
-                                      </ul>
-
-      <a href="mailto:project.cworks@gmail.com" class="email">project.cworks@gmail.com</a>
-      <a href="mailto:contact@cloven.works" class="email" style={{marginLeft:"20px"}}>contact@cloven.works</a>
+        <a href="https://mobile.twitter.com/ClovenWorks"  target="_blank"><img src={linkedin} alt="HTML tutorial" style={{width:"42px",height:"42px"}}/></a>  
+        <a href="https://mobile.twitter.com/ClovenWorks"  target="_blank"><img src={Gmail} alt="HTML tutorial" style={{width:"42px",height:"42px"}}/></a>             
+        </ul>
+        <ul class="social-mails">
+        
+        <a href="mailto:project.cworks@gmail.com" class="email">project.cworks@gmail.com</a>        
+        <a href="mailto:contact@cloven.works" class="email" style={{marginLeft:"20px"}}>contact@cloven.works</a>      
+        </ul>
+    
       <small class="level-5">&copy; 2022 Cloven&Work</small>
     </div>
-  </footer>
+  </footer> */}
     </div>
   )
 }
