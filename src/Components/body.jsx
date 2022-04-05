@@ -494,8 +494,8 @@ organizations.
         <a href="https://mobile.twitter.com/ClovenWorks"  target="_blank"><img src={Twitter} alt="HTML tutorial" style={{width:"42px",height:"42px"}}/></a>               
                                       </ul>
 
-      <a href="mailto:hello@unifyconsulting.com" class="email">project.cworks@gmail.com</a>
-      <a href="mailto:hello@unifyconsulting.com" class="email" style={{marginLeft:"20px"}}>contact@cloven.works</a>
+      <a href="mailto:project.cworks@gmail.com" class="email">project.cworks@gmail.com</a>
+      <a href="mailto:contact@cloven.works" class="email" style={{marginLeft:"20px"}}>contact@cloven.works</a>
       <small class="level-5">&copy; 2022 Cloven&Work</small>
     </div>
   </footer>
