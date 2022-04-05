@@ -8,10 +8,9 @@ import office from '../asset/office.jpg';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 import styled from "styled-components";
-import icon3 from '../asset/logo2.png';
-import icon4 from '../asset/logo3.jpg';
-import icon from '../asset/icon.jpg';
-import icon1 from '../asset/logo1.png';
+
+import icon from '../asset/logo2.png';
+
 import Body from '../Components/body';
 
 
@@ -76,9 +75,10 @@ const Index = () =>{
     <header className="header">
       
       <div className="top-bar container">
-      <a className="logo"   rel="home">
-        {/* <img className="logo1" src={icon3} max-width="100%" height="110%"/> */}
-        <p className="page-title1">Cloven&Works</p>
+      <p className="page-title2 ">Cloven&Works</p>
+      <a className="logo"    rel="home">
+        {/* <img className="logo" src={icon} width="100%" height="auto" /> */}
+        <p className="page-title1 ">Cloven&Works</p>
         
       </a>
       <p className="page-title">Transforming Your Presence</p>
