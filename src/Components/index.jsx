@@ -3,7 +3,7 @@ import { useEffect,useState, useRef } from 'react';
 import './style.css';
 import Contact from '../Components/Contact'
 import './main.css'
-import office from '../asset/office.jpg';
+import office from '../asset/office1.jpg';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
@@ -131,10 +131,10 @@ const Index = () =>{
       </div>
     </header>
     <section id="content" role="main" className="content-wrapper">
- 
+    <div style={{ background: "linear-gradient(#e66465, #9198e5)" }}/>
       <section className="video background hero " >
-     
-    
+      
+      
     <img src={office} style={{width:'100%'}}></img>
 
       

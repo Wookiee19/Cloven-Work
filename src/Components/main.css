@@ -65,6 +65,7 @@ dt {
 dd {
   margin-left: 0;
 }
+
 @media screen and (max-width: 800px) {
   .page-title2{
     color: #143250;

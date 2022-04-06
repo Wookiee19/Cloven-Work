@@ -238,7 +238,7 @@ Building for You, That's What We Do!</span></p>
           <div className="box full insight">
           <Carousel 
          autoPlay={true} 
-         interval={3000}
+         interval={6000}
          autoFocus={true}
          dynamicHeight={true}
           showThumbs={false}
@@ -250,10 +250,10 @@ Building for You, That's What We Do!</span></p>
            
             >
                 <div>
-                <img src={neuraltone11} alt="Cone Object" style={{width: 700, height: 300}} />
+                <img src={neuraltone11} alt="Cone Object" style={{width: 800, height: 200}} />
                 </div>
                 <div>
-                <img src={neuraltone2} alt="Cone Object" style={{width: 700, height: 300}} />
+                <img src={neuraltone2} alt="Cone Object" style={{width: 800, height: 200}} />
                 </div>
                
                 
@@ -317,7 +317,7 @@ settings.
             <div className="box full insight">
             <Carousel 
          autoPlay={true} 
-         interval={3000}
+         interval={6000}
          dynamicHeight={true}
           showThumbs={false}
            infiniteLoop={true}
@@ -328,13 +328,13 @@ settings.
             
             >
                 <div>
-                <img src={admin} alt="admin" style={{width: 700, height: 300}}/>
+                <img src={admin} alt="admin" style={{width: 800, height: 200}}/>
                 </div>
                 <div>
-                <img src={teacher} alt="teacher" style={{width: 700, height: 300}} />
+                <img src={teacher} alt="teacher" style={{width: 800, height: 200}} />
                 </div>
                 <div>
-                <img src={student} alt="student" style={{width: 700, height: 300}} />
+                <img src={student} alt="student" style={{width: 800, height: 200}} />
                 </div>
             </Carousel>
               <p className="level-5">
@@ -399,7 +399,7 @@ become much more efficient since implementing this program.
             <div className="box full insight" >
             <Carousel 
          autoPlay={true} 
-         interval={3000}
+         interval={6000}
          
          dynamicHeight={true}
           showThumbs={false}
@@ -411,13 +411,13 @@ become much more efficient since implementing this program.
            
             >
                 <div>
-                <img src={nearby1} alt="Cone Object" style={{width: 700, height: 300}} />
+                <img src={nearby1} alt="Cone Object" style={{width: 800, height: 200}} />
                 </div>
                 <div>
-                <img src={nearby3} alt="Cone Object" style={{width: 700, height: 300}} />
+                <img src={nearby3} alt="Cone Object" style={{width: 800, height: 200}} />
                 </div>
                 <div>
-                <img src={nearby2} alt="Cone Object" style={{width: 700, height: 300}} />
+                <img src={nearby2} alt="Cone Object" style={{width: 800, height: 200}} />
                 </div>
                
                 
