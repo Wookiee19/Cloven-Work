@@ -19,7 +19,7 @@ import styled from "styled-components";
 import neuraltone11 from "../asset/neuraltone11.gif";
 import neuraltone2 from "../asset/neuraltone2.gif";
 import nearby1 from "../asset/nearby1.jpg";
-import nearby2 from "../asset/nearby2.png";
+import nearby2 from "../asset/nearby5.png";
 import nearby3 from "../asset/nearby3.png"
 import admin from "../asset/erp-admin.png";
 import student from "../asset/erp-student.png";
