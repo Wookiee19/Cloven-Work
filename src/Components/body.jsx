@@ -14,14 +14,13 @@ import GKTW from '../asset/GKTW.jpg';
 import microsoft from '../asset/microsoft.gif';
 import research from '../asset/research.gif';
 import ui from '../asset/ui.gif';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import styled from "styled-components";
 import neuraltone11 from "../asset/neuraltone11.gif";
 import neuraltone2 from "../asset/neuraltone2.gif";
 import nearby1 from "../asset/nearby1.jpg";
-import nearby2 from "../asset/nearby2.jpg";
-import nearby3 from "../asset/nearby3.jpg"
+import nearby2 from "../asset/nearby2.png";
+import nearby3 from "../asset/nearby3.png"
 import admin from "../asset/erp-admin.png";
 import student from "../asset/erp-student.png";
 import teacher from "../asset/erp-teacher.png";
@@ -31,12 +30,13 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import icon from '../asset/icon.PNG';
-import { height } from '@mui/system';
+import { height, maxWidth } from '@mui/system';
 import Twitter from "../asset/twitter-square-brands.svg";
 import Instagram from "../asset/instagram-square-brands.svg";
 import IconButton from '@mui/material/IconButton';
 import Gmail from "../asset/gmail.ico";
-
+import Carousel from 'react-gallery-carousel';
+import 'react-gallery-carousel/dist/index.css';
 import linkedin from "../asset/linkedin.png";
 import Facebook from "../asset/instagram-square-brands.svg";
 
@@ -114,6 +114,45 @@ const Body = () => {
   const handleClose3 = () => {
     setOpen3(false);
   };
+  const image1 = [
+    {
+      src: neuraltone11,
+      
+    },
+    {
+      src: neuraltone2,
+      
+    }
+  ];
+  const image2 = [
+    {
+      src: admin,
+      
+    },
+    {
+      src: student,
+      
+    },
+    {
+      src: teacher,
+      
+    }
+  ];
+  const image3 = [
+    {
+      src: nearby1,
+      
+    },
+    {
+      src: nearby2,
+      
+    },
+    {
+      src: nearby3,
+      
+    }
+  ];
+  
   return (
     <div>
 
@@ -212,16 +251,16 @@ Building for You, That's What We Do!</span></p>
         <div className="container flex">
           
           <a href='https://about.google/' className="box1" target="_blank">
-            <img src={google} alt="circle icon with bar chart. Link to Data-Driven Insights page" width="380" height="190" />
+            <img src={google} alt="circle icon with bar chart. Link to Data-Driven Insights page" style={{marginTop:"32px", maxHeight:"280px"}} width="380" height="190" />
             
           </a>
           <a href='https://www.cmu.edu/' className="box1" target="_blank">
-            <img src={Carnegie} alt="circle icon with microchip. Link to Technology Enablement page" width="380" height="190"/>
+            <img src={Carnegie} alt="circle icon with microchip. Link to Technology Enablement page" style={{marginTop:"32px",maxHeight:"280px"}} width="320" height="190"/>
             
           </a>
           
           <a href='https://www.gktw.org/' className="box1" target="_blank">
-            <img src={GKTW} alt="circle icon with bar chart. Link to Data-Driven Insights page" style={{marginTop:"32px"}} width="380" height="190" />
+            <img src={GKTW} alt="circle icon with bar chart. Link to Data-Driven Insights page" style={{marginTop:"32px",maxHeight:"280px"}} width="380" height="190" />
             </a>
         </div>
       </section>
@@ -236,7 +275,7 @@ Building for You, That's What We Do!</span></p>
         <div className="container margin-bottom">
           <div className="flex">
           <div className="box full insight">
-          <Carousel 
+          {/* <Carousel 
          autoPlay={true} 
          interval={6000}
          autoFocus={true}
@@ -257,8 +296,28 @@ Building for You, That's What We Do!</span></p>
                 </div>
                
                 
-            </Carousel>
-              <p className="level-5">
+            </Carousel> */}
+            <Carousel
+            hasMediaButton="canAutoPlay"
+            hasIndexBoard="false" 
+            widgetsHasShadow="false"
+            hasThumbnails="false"
+            hasThumbnailsAtMax="false"
+            shouldSwipeOnMouse
+            shouldMaximizeOnClick
+            shouldMinimizeOnClick
+            objectFit="object-fit"
+            objectFitAtMax="object-fit"
+            hasRightButton="false" 
+            hasLeftButton="false"
+            hasSizeButton="false"
+            isAutoPlaying
+            autoPlayInterval="5000"
+            
+
+            images={image1} style={{width: 350, height: 200,marginBottom:"13px" }} />
+            
+              <p className="level-5" style={{fontSize:"15px", fontWeight:"bold" }}>
                 <span>Neuraltone </span>
                 Research
               </p>
@@ -315,7 +374,7 @@ settings.
       </Modal>
             </div>
             <div className="box full insight">
-            <Carousel 
+            {/* <Carousel 
          autoPlay={true} 
          interval={6000}
          dynamicHeight={true}
@@ -336,8 +395,26 @@ settings.
                 <div>
                 <img src={student} alt="student" style={{width: 800, height: 200}} />
                 </div>
-            </Carousel>
-              <p className="level-5">
+            </Carousel> */}
+            <Carousel
+            hasMediaButton="canAutoPlay"
+            hasIndexBoard="false" 
+            widgetsHasShadow="false"
+            hasThumbnails="false"
+            hasThumbnailsAtMax="false"
+            shouldSwipeOnMouse
+            shouldMaximizeOnClick
+            shouldMinimizeOnClick
+            objectFit
+            hasRightButton="false" 
+            hasLeftButton="false"
+            hasSizeButton="false"
+            isAutoPlaying
+            autoPlayInterval="5000"
+            
+            images={image2} style={{width: 350, height: 200 ,marginBottom:"13px"}} />
+           
+              <p  className="level-5" style={{fontSize:"15px", fontWeight:"bold" }}>
                 <span>School Portal </span> 
                 ERP
               </p>
@@ -397,7 +474,7 @@ become much more efficient since implementing this program.
       </Modal>
             </div>
             <div className="box full insight" >
-            <Carousel 
+            {/* <Carousel 
          autoPlay={true} 
          interval={6000}
          
@@ -421,13 +498,32 @@ become much more efficient since implementing this program.
                 </div>
                
                 
-            </Carousel>
-              <p className="level-5">
+            </Carousel> */}
+            <Carousel
+            hasMediaButton="canAutoPlay"
+            hasIndexBoard="false" 
+            widgetsHasShadow="false"
+            hasThumbnails="false"
+            hasThumbnailsAtMax="false"
+            shouldSwipeOnMouse
+            shouldMaximizeOnClick
+            shouldMinimizeOnClick
+            objectFit
+            hasRightButton="false" 
+            hasLeftButton="false"
+            hasSizeButton="false"
+            isAutoPlaying
+            autoPlayInterval="5000"
+            
+            images={image3} style={{width: 350, height: 200,marginBottom:"13px"}} />
+           
+              <p className="level-5" style={{fontSize:"15px", fontWeight:"bold" }}>
                 <span>Food Ordering App </span>
                 E-Commerce
               </p>
-              <p className="large">Ordering App allows customers to discover, buy, and save with
-sellers closest to them .</p>
+              <p className="large">'Nearbuy Food Ordering' allows customers to discover, buy, and save with
+sellers closest to them . However, developing this type of
+software requires much geographical data.</p>
               <div>
             <a onClick={handleClickOpen2} className="button">See More</a>
           </div>
