@@ -3,7 +3,7 @@ import { useEffect,useState, useRef } from 'react';
 import './style.css';
 import Contact from '../Components/Contact'
 import './main.css'
-import office from '../asset/office1.jpg';
+import office from '../asset/office1.png';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
