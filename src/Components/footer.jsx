@@ -5,6 +5,7 @@ import email from "../asset/email.png";
 import './footer1.css'
 import icon1 from '../asset/logo1.png';
 import twitter from "../asset/twitter.png";
+import linkedin from "../asset/linkedin.png";
 const FooterPage = () => {
   return (
    <>
@@ -24,7 +25,7 @@ organizations.
 				<div class="footer-icons">
 
                 <a href="https://mobile.twitter.com/ClovenWorks"  target="_blank"><img src={twitter} alt="HTML tutorial" style={{width:"42px",height:"42px"}}/></a> 
-					
+				<a href="https://www.linkedin.com/company/cloven-works/"  target="_blank"><img src={linkedin} alt="HTML tutorial" style={{width:"42px",height:"42px"}}/></a>	
 
 				</div>
             
