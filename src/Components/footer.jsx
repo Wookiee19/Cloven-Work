@@ -25,7 +25,7 @@ organizations.
 				<div class="footer-icons">
 
                 
-				<a href="https://www.linkedin.com/company/cloven-works/"  target="_blank"><img src={linkedin} alt="HTML tutorial" style={{width:"42px",height:"42px"}}/></a>	
+				<a href="https://www.linkedin.com/company/cloven-works/"  target="_blank"><img src={linkedin} alt="HTML tutorial" style={{width:"42px",height:"32px"}}/></a>	
 
 				</div>
             
